@@ -26,7 +26,6 @@ def get_tasks_one(session):
             asyncio.create_task(
                 session.get(
                     url,
-                    proxy="http://jfbvbogu-rotate:npcjftw332f6@p.webshare.io:80/",
                     timeout=40,
                 )
             )
@@ -42,7 +41,6 @@ def get_tasks_two(session):
             asyncio.create_task(
                 session.get(
                     url,
-                    proxy="http://jfbvbogu-rotate:npcjftw332f6@p.webshare.io:80/",
                     timeout=40,
                 )
             )
